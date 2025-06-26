@@ -1,0 +1,131 @@
+.cartitems {
+    margin: 80px 120px;
+}
+
+.cartitems hr {
+    height: 3px;
+    width: 96%;
+    color: #191616;
+    border: 5;
+}
+
+.cartitems-format-main {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cartitems-format {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.carticon-product-icon {
+    height: 60px;
+}
+
+.carticon-remove {
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+
+.cartitems-quantity {
+    width: 60px;
+    height: 30px;
+    border: 2px solid #ebebeb;
+    background: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.cartitems-price-tag {
+    margin-left: 15px;
+}
+
+.cartitems-down {
+    display: flex;
+    margin: 60px 0px;
+}
+
+.cartitems-down hr {
+    width: 100%;
+}
+
+.cartitems-total {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 280px;
+    gap: 20px;
+}
+
+.cartitem-total-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.cartitems-total button {
+    padding: 10px 40px;
+    width: 450px;
+    font-size: 16px;
+    font-weight: 600;
+    color: whitesmoke;
+    background: #ff4141;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.cartitems-total button:hover {
+    background: #81dede;
+    color: whitesmoke;
+}
+
+.cartitems-promocode {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 150px;
+}
+
+.cartitems-promocode p {
+    color: #555;
+}
+
+.cartitems-promobox {
+    width: 240px;
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 50px;
+    background: #eaeaea;
+    margin-left: 30px;
+}
+
+.cartitems-promobox input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 250px;
+    font-size: 16px;
+    height: 50px;
+}
+
+.cartitems-promobox button {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    background: black;
+    cursor: pointer;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    margin-left: 50px;
+    margin-top: 15px;
+}
